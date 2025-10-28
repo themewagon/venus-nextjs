@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { getImgPath } from '@/utils/image'
 
 const Footer: FC = () => {
   return (
@@ -11,7 +12,7 @@ const Footer: FC = () => {
             <div className='sm:content-normal sm:text-start text-center content-center sm:w-auto w-full'>
               <Link href='/' className='md:block flex justify-center'>
                 <Image
-                  src='/images/logo/logo-white.svg'
+                  src={getImgPath('/images/logo/logo-white.svg')}
                   alt='logo'
                   width={160}
                   height={50}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { getImgPath } from '@/utils/image'
 
 const Testimonial = () => {
   return (
@@ -9,7 +10,7 @@ const Testimonial = () => {
       <div className='container mx-auto max-w-6xl px-4'>
         <div>
           <Image
-            src='/images/testimonial/vector-smart.png'
+            src={getImgPath('/images/testimonial/vector-smart.png')}
             alt='logo'
             width={150}
             height={0}

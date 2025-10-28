@@ -1,3 +1,5 @@
+import { getImgPath } from "@/utils/image";
+
 export const menuItems = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
@@ -9,17 +11,17 @@ export const menuItems = [
 
 export const count = [
     {
-        icon: "/images/counter/star.svg",
+        icon: getImgPath("/images/counter/star.svg"),
         value: "4.86",
         description: "Out of 5 stars from 3896 reviews on Google platform",
     },
     {
-        icon: "/images/counter/admin.svg",
+        icon: getImgPath("/images/counter/admin.svg"),
         value: "364",
         description: "Client testimonials received in the year 2021",
     },
     {
-        icon: "/images/counter/bag.svg",
+        icon: getImgPath("/images/counter/bag.svg"),
         value: "45M+",
         description: "Revenue generated through new projects & marketing",
     },
@@ -33,17 +35,17 @@ export const Progress = [
 
 export const Servicebox = [
     {
-        icon: '/images/services/ux-design-product_1.svg',
+        icon: getImgPath('/images/services/ux-design-product_1.svg'),
         title: 'UX & Product Design',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-        icon: '/images/services/perfomance-optimization.svg',
+        icon: getImgPath('/images/services/perfomance-optimization.svg'),
         title: 'Performance Optimization',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-        icon: '/images/services/ux-design-product_2.svg',
+        icon: getImgPath('/images/services/ux-design-product_2.svg'),
         title: 'UX & Products Design',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
@@ -51,7 +53,7 @@ export const Servicebox = [
 
 export const portfolioinfo = [
     {
-        image: '/images/portfolio/cozycasa.png',
+        image: getImgPath('/images/portfolio/cozycasa.png'),
         alt: 'Portfolio',
         title: 'Cozycasa',
         slug: 'Cozycasa',
@@ -59,7 +61,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: '/images/portfolio/mars.png',
+        image: getImgPath('/images/portfolio/mars.png'),
         alt: 'Portfolio',
         title: 'Mars',
         slug: 'Mars',
@@ -67,7 +69,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: '/images/portfolio/humans.png',
+        image: getImgPath('/images/portfolio/humans.png'),
         alt: 'Portfolio',
         title: 'Everyday Humans',
         slug: 'everyday-humans',
@@ -75,7 +77,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: '/images/portfolio/roket-squred.png',
+        image: getImgPath('/images/portfolio/roket-squred.png'),
         alt: 'Portfolio',
         title: 'Rocket Squared',
         slug: 'rocket-squared',
@@ -83,7 +85,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: '/images/portfolio/panda-logo.png',
+        image: getImgPath('/images/portfolio/panda-logo.png'),
         alt: 'Portfolio',
         title: 'Panda Logo',
         slug: 'panda-logo',
@@ -91,7 +93,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: '/images/portfolio/humans.png',
+        image: getImgPath('/images/portfolio/humans.png'),
         alt: 'Portfolio',
         title: 'Fusion Dynamics',
         slug: 'fusion-dynamics',
@@ -99,7 +101,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: '/images/portfolio/cozycasa.png',
+        image: getImgPath('/images/portfolio/cozycasa.png'),
         alt: 'Portfolio',
         title: 'InnovateX Ventures',
         slug: 'innovate-x-ventures',
@@ -107,7 +109,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: '/images/portfolio/mars.png',
+        image: getImgPath('/images/portfolio/mars.png'),
         alt: 'Portfolio',
         title: 'Nebula Holdings',
         slug: 'nebula-holdings',
@@ -115,7 +117,7 @@ export const portfolioinfo = [
         Class: 'md:mt-0'
     },
     {
-        image: '/images/portfolio/panda-logo.png',
+        image: getImgPath('/images/portfolio/panda-logo.png'),
         alt: 'Portfolio',
         title: 'Summit Partners',
         slug: 'summit-partners',
@@ -123,7 +125,7 @@ export const portfolioinfo = [
         Class: 'md:mt-24'
     },
     {
-        image: '/images/portfolio/roket-squred.png',
+        image: getImgPath('/images/portfolio/roket-squred.png'),
         alt: 'Portfolio',
         title: 'Apex Strategies',
         slug: 'apex-strategies',
