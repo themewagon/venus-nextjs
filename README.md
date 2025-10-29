@@ -30,7 +30,7 @@ bun dev
 
 ## Author 
 ```
-Design and code is completely written by codescandy and development team. 
+Design and code is completely written by GetNextJs Templates and the development team. 
 ```
 
 ## License
@@ -40,4 +40,4 @@ Design and code is completely written by codescandy and development team.
  - Distributed by [ThemeWagon](https://themewagon.com)
 
 
-Package Figma :- https://www.figma.com/design/xEDxVvsvcPq9UA7u7ECCWh/Venus?node-id=0-1&t=2ODUdSKzbshaQQkk-1
+Package Figma:- https://www.figma.com/design/xEDxVvsvcPq9UA7u7ECCWh/Venus?node-id=0-1&t=2ODUdSKzbshaQQkk-1
