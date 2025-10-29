@@ -12,8 +12,8 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
                 <div className="mb-8 overflow-hidden rounded-sm">
                     <Link href={`/blog/#!`} aria-label="blog cover" className="block">
                         <Image
-                            src={coverImage!}
-                            alt="image"
+                            src={`/venus-nextjs/${coverImage!}`}
+                            alt="imageeee"
                             className="w-full transition group-hover:scale-125"
                             width={408}
                             height={272}
