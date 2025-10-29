@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NEXT_PUBLIC_NODE_ENV == "production";
-const basePath = isProd ? `/${process.env.NEXT_PUBLIC_GITHUB_REPO}` : "";
+const isProd = process.env.NODE_ENV == "production";
+const basePath = isProd ? `/${process.env.GITHUB_REPO}` : "";
 
 const nextConfig = {
   output: "export",
