@@ -10,7 +10,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
         <>
             <div className="group mb-0 relative">
                 <div className="mb-8 overflow-hidden rounded-sm">
-                    <Link href={`/blog/${slug}`} aria-label="blog cover" className="block">
+                    <Link href={`/blog/#!`} aria-label="blog cover" className="block">
                         <Image
                             src={coverImage!}
                             alt="image"
